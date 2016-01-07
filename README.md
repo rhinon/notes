@@ -1,6 +1,7 @@
 # Ryan's Notes
 
 * [postgres.md](postgres.md)
+* [unix.md](unix.md)
 
 
 ## External Links
