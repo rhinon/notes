@@ -12,3 +12,8 @@ Get disk usage
 ```bash
 df -h
 ```
+
+[OSX Only] Ghetto hash directory + contents
+```
+find <dir> -type f -exec shasum {} + | shasum
+```
