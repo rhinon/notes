@@ -1,6 +1,7 @@
 # Ryan's Notes
 
 * [postgres.md](postgres.md)
+* [new_osx.md](new_osx.md)
 * [unix.md](unix.md)
 
 
