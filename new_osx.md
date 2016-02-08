@@ -22,6 +22,11 @@ brew link --force openssl
 and open a new console (`which openssl`)
 
 ### Troubleshooting
+#### iTerm2 <kbd>&#8997;</kbd><kbd>&larr;</kbd> and <kbd>&#8997;</kbd><kbd>&rarr;</kbd> keys not working
+Set the iTerm2 profile keybindings to send the following hex codes:
+* <kbd>&#8997;</kbd><kbd>&larr;</kbd>: `0x1b 0x62`
+* <kbd>&#8997;</kbd><kbd>&rarr;</kbd>: `0x1b 0x66`
+
 #### Failing to install eventmachine gem:
 Make sure openssl is installed (homebrew command: `brew info openssl`)
 ```
