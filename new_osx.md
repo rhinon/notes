@@ -14,6 +14,13 @@
 * GitGutter
 * Theme - Spacegray
 
+### Making sure openssl is using homebrew's
+Check `/usr/local/bin` for `openssl` symlink. If it's not there:
+```
+brew link --force openssl
+```
+and open a new console (`which openssl`)
+
 ### Troubleshooting
 #### Failing to install eventmachine gem:
 Make sure openssl is installed (homebrew command: `brew info openssl`)
